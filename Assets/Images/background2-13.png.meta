@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d00bd91a1798e44087b9b6296be5181
+guid: 8099d4187b5b0a8428bfe881d86f0d98
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3637034939377930348
-    second: "button-come\xE7ar_0"
+      213: 5875753126203016952
+    second: background2-13_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "button-come\xE7ar_0"
+      name: background2-13_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 29
-        width: 268
-        height: 108
+        x: 0
+        y: 0
+        width: 1921
+        height: 1081
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49fa1b21ef7a68dc0800000000000000
-      internalID: -3637034939377930348
+      spriteID: 8f6c833565eda8150800000000000000
+      internalID: 5875753126203016952
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "button-come\xE7ar_0": -3637034939377930348
+      background2-13_0: 5875753126203016952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
