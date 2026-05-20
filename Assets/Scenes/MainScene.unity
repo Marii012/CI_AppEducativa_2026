@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 95386388}
   - component: {fileID: 95386387}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,7 +148,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 390988300}
+  - {fileID: 2140986849}
+  - {fileID: 987304045}
   m_Father: {fileID: 486711959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -360,6 +363,7 @@ GameObject:
   - component: {fileID: 390988302}
   - component: {fileID: 390988301}
   - component: {fileID: 390988303}
+  - component: {fileID: 390988304}
   m_Layer: 5
   m_Name: verde
   m_TagString: Untagged
@@ -374,12 +378,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390988299}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 486711959}
+  m_Father: {fileID: 95386386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -438,10 +442,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HeroLightFlicker
   targetImage: {fileID: 390988301}
   baseAlpha: 1
-  minAlpha: 0.95
+  minAlpha: 0.96
   maxAlpha: 1
   minDelay: 0.05
   maxDelay: 0.25
+--- !u!114 &390988304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390988299}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59cf031726c82da4492575b297b109a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RGBLayeredBackground
+  redLayer: {fileID: 0}
+  greenLayer: {fileID: 390988301}
+  blueLayer: {fileID: 0}
+  speed: 3
+  redA: {r: 1, g: 0.2, b: 0.2, a: 1}
+  redB: {r: 0.6, g: 0, b: 0, a: 1}
+  greenA: {r: 0.7372549, g: 0.8313726, b: 0.45098042, a: 1}
+  greenB: {r: 0.8352942, g: 0.882353, b: 0.50980395, a: 1}
+  blueA: {r: 0.2, g: 0.4, b: 1, a: 1}
+  blueB: {r: 0, g: 0, b: 0.6, a: 1}
 --- !u!1 &486711955
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,9 +563,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 95386386}
-  - {fileID: 390988300}
-  - {fileID: 2140986849}
-  - {fileID: 987304045}
   - {fileID: 1446781788}
   - {fileID: 617152682}
   - {fileID: 490786523}
@@ -981,6 +1004,7 @@ GameObject:
   - component: {fileID: 919456239}
   - component: {fileID: 919456238}
   - component: {fileID: 919456241}
+  - component: {fileID: 919456242}
   m_Layer: 5
   m_Name: "but\xE3o-iniciar"
   m_TagString: Untagged
@@ -1051,7 +1075,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 919456239}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 919456242}
+        m_TargetAssemblyTypeName: BotaoMudarCena, Assembly-CSharp
+        m_MethodName: MudarCena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &919456239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,6 +1148,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &919456242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919456236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63fbcd6d4807f249ba112cb66a5afdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotaoMudarCena
+  nomeCena: MenuPrincipal
 --- !u!1 &987304044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,12 +1187,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987304044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 486711959}
+  m_Father: {fileID: 95386386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1202,7 +1251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HeroLightFlicker
   targetImage: {fileID: 987304046}
   baseAlpha: 1
-  minAlpha: 0.95
+  minAlpha: 0.98
   maxAlpha: 1
   minDelay: 0.05
   maxDelay: 0.25
@@ -1551,12 +1600,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140986848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 486711959}
+  m_Father: {fileID: 95386386}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1613,9 +1662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658b70f08e7dc9b4092f93263b3e9997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HeroLightFlicker
-  targetImage: {fileID: 2140986850}
+  targetImage: {fileID: 0}
   baseAlpha: 1
-  minAlpha: 0.95
+  minAlpha: 0.98
   maxAlpha: 1
   minDelay: 0.05
   maxDelay: 0.25
