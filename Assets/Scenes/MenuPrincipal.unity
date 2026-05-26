@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 202697399}
   - component: {fileID: 202697401}
   - component: {fileID: 202697400}
+  - component: {fileID: 202697402}
   m_Layer: 5
   m_Name: "Chap\xE9u"
   m_TagString: Untagged
@@ -194,6 +195,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202697398}
   m_CullTransparentMesh: 1
+--- !u!114 &202697402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202697398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac135fc0514ff7e47a32be50964a1890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BubbleDecorIdle
+  floatStrength: 0.03
+  floatSpeed: 1.1
+  wobbleStrength: 1.5
+  wobbleSpeed: 0.9
+  scalePulse: 0.01
 --- !u!1 &377471964
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +241,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 414079407}
   m_Father: {fileID: 1937853376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -294,13 +313,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414079406}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 829165201}
-  m_Father: {fileID: 1937853376}
+  m_Father: {fileID: 377471965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -356,6 +375,7 @@ GameObject:
   - component: {fileID: 448042058}
   - component: {fileID: 448042060}
   - component: {fileID: 448042059}
+  - component: {fileID: 448042061}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -482,6 +502,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448042057}
   m_CullTransparentMesh: 1
+--- !u!114 &448042061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448042057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b662fd8127943054aa9f1c0f947eb2f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CleanTypewriter
+  text: {fileID: 448042059}
+  fullText: Academia
+  startDelay: 0.2
+  letterDelay: 0.05
 --- !u!1 &829165200
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +666,7 @@ GameObject:
   - component: {fileID: 1233738043}
   - component: {fileID: 1233738045}
   - component: {fileID: 1233738044}
+  - component: {fileID: 1233738046}
   m_Layer: 5
   m_Name: "Bal\xE3o2"
   m_TagString: Untagged
@@ -696,6 +733,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233738042}
   m_CullTransparentMesh: 1
+--- !u!114 &1233738046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233738042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b369bf6d9ce98cf43b9cd5bae7d836a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HeroEntrySubtle
+  breatheStrength: 0.015
+  breatheSpeed: 1.2
+  wobbleStrength: 0.4
+  wobbleSpeed: 0.9
 --- !u!1 &1428398162
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +852,7 @@ GameObject:
   - component: {fileID: 1585377962}
   - component: {fileID: 1585377964}
   - component: {fileID: 1585377963}
+  - component: {fileID: 1585377965}
   m_Layer: 5
   m_Name: Texto
   m_TagString: Untagged
@@ -925,6 +979,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585377961}
   m_CullTransparentMesh: 1
+--- !u!114 &1585377965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585377961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b662fd8127943054aa9f1c0f947eb2f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CleanTypewriter
+  text: {fileID: 1585377963}
+  fullText: "Miss\xF5es"
+  startDelay: 0.3
+  letterDelay: 0.05
 --- !u!1 &1624646643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,8 +1085,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b369bf6d9ce98cf43b9cd5bae7d836a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BalloonComicEntryStacked
-  duration: 1
-  smallPop: 0.3
+  breatheStrength: 0.015
+  breatheSpeed: 1.2
+  wobbleStrength: 0.4
+  wobbleSpeed: 0.9
 --- !u!1 &1662379610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1338,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 377471965}
-  - {fileID: 414079407}
   - {fileID: 1662379611}
   - {fileID: 1624646644}
   - {fileID: 1233738043}
@@ -1288,6 +1359,7 @@ GameObject:
   - component: {fileID: 1972692984}
   - component: {fileID: 1972692986}
   - component: {fileID: 1972692985}
+  - component: {fileID: 1972692987}
   m_Layer: 5
   m_Name: Comando
   m_TagString: Untagged
@@ -1352,6 +1424,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972692983}
   m_CullTransparentMesh: 1
+--- !u!114 &1972692987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972692983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac135fc0514ff7e47a32be50964a1890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BubbleDecorIdle
+  floatStrength: 0.03
+  floatSpeed: 1.1
+  wobbleStrength: 1.5
+  wobbleSpeed: 0.9
+  scalePulse: 0.01
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
