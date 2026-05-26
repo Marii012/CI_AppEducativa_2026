@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 2a122890bf37e11498465cdd56152cfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8220694116665676426
+    second: estrelas_mirtilo_0
+  - first:
+      213: -6687013952856900937
+    second: estrelas_mirtilo_1
+  - first:
+      213: -3277417771764727463
+    second: estrelas_mirtilo_2
+  - first:
+      213: 3013551839322596477
+    second: estrelas_mirtilo_3
+  - first:
+      213: 5589796638543851866
+    second: estrelas_mirtilo_4
+  - first:
+      213: 7532599929865986358
+    second: estrelas_mirtilo_5
+  - first:
+      213: 177508546061299041
+    second: estrelas_mirtilo_6
+  - first:
+      213: 1821681724605823596
+    second: estrelas_mirtilo_7
+  - first:
+      213: 119317624101211091
+    second: estrelas_mirtilo_8
+  - first:
+      213: -5288561522009342621
+    second: estrelas_mirtilo_9
+  - first:
+      213: -2035359995679978635
+    second: estrelas_mirtilo_10
+  - first:
+      213: 5595364841670390228
+    second: estrelas_mirtilo_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estrelas_mirtilo_0
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 407
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67daff8814a3aed80800000000000000
+      internalID: -8220694116665676426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 419
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba32eb3d34f233a0800000000000000
+      internalID: -6687013952856900937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 381
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951496da6e54482d0800000000000000
+      internalID: -3277417771764727463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 348
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d746c0f6e6942d920800000000000000
+      internalID: 3013551839322596477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 375
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51341f3d62f29d40800000000000000
+      internalID: 5589796638543851866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_5
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 370
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6316bce0abb298860800000000000000
+      internalID: 7532599929865986358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d64980513a67200800000000000000
+      internalID: 177508546061299041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 317
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a73f870e9e74910800000000000000
+      internalID: 1821681724605823596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 329
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db0ff73fb6e7a100800000000000000
+      internalID: 119317624101211091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 293
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d75d3d0514b96b0800000000000000
+      internalID: -5288561522009342621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 290
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b44732ed2f0c3e0800000000000000
+      internalID: -2035359995679978635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: estrelas_mirtilo_11
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 202
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d139709daab6ad40800000000000000
+      internalID: 5595364841670390228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      estrelas_mirtilo_0: -8220694116665676426
+      estrelas_mirtilo_1: -6687013952856900937
+      estrelas_mirtilo_10: -2035359995679978635
+      estrelas_mirtilo_11: 5595364841670390228
+      estrelas_mirtilo_2: -3277417771764727463
+      estrelas_mirtilo_3: 3013551839322596477
+      estrelas_mirtilo_4: 5589796638543851866
+      estrelas_mirtilo_5: 7532599929865986358
+      estrelas_mirtilo_6: 177508546061299041
+      estrelas_mirtilo_7: 1821681724605823596
+      estrelas_mirtilo_8: 119317624101211091
+      estrelas_mirtilo_9: -5288561522009342621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
