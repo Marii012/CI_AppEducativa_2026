@@ -212,6 +212,9 @@ MonoBehaviour:
   wobbleStrength: 1.5
   wobbleSpeed: 0.9
   scalePulse: 0.01
+  hoverScale: 1.05
+  hoverLift: 2
+  hoverSpeed: 8
 --- !u!1 &377471964
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,6 +246,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 414079407}
+  - {fileID: 829165201}
   m_Father: {fileID: 1937853376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -317,8 +321,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 829165201}
+  m_Children: []
   m_Father: {fileID: 377471965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -516,8 +519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanTypewriter
   text: {fileID: 448042059}
   fullText: Academia
-  startDelay: 0.2
-  letterDelay: 0.05
+  startDelay: 0.4
+  letterDelay: 0.1
 --- !u!1 &829165200
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,16 +546,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829165200}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 414079407}
+  m_Father: {fileID: 377471965}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 21}
+  m_AnchoredPosition: {x: 37.999985, y: 444.7312}
   m_SizeDelta: {x: 1214.738, y: 128.694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &829165202
@@ -749,6 +752,12 @@ MonoBehaviour:
   breatheSpeed: 1.2
   wobbleStrength: 0.4
   wobbleSpeed: 0.9
+  entryDuration: 0.5
+  startScaleMultiplier: 0.95
+  entryRotation: -8
+  hoverScale: 1.05
+  hoverLift: 5
+  hoverSpeed: 8
 --- !u!1 &1428398162
 GameObject:
   m_ObjectHideFlags: 0
@@ -993,8 +1002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CleanTypewriter
   text: {fileID: 1585377963}
   fullText: "Miss\xF5es"
-  startDelay: 0.3
-  letterDelay: 0.05
+  startDelay: 0.5
+  letterDelay: 0.1
 --- !u!1 &1624646643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1098,12 @@ MonoBehaviour:
   breatheSpeed: 1.2
   wobbleStrength: 0.4
   wobbleSpeed: 0.9
+  entryDuration: 0.5
+  startScaleMultiplier: 0.85
+  entryRotation: -8
+  hoverScale: 1.05
+  hoverLift: 5
+  hoverSpeed: 8
 --- !u!1 &1662379610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,8 +1454,11 @@ MonoBehaviour:
   floatStrength: 0.03
   floatSpeed: 1.1
   wobbleStrength: 1.5
-  wobbleSpeed: 0.9
+  wobbleSpeed: 1.2
   scalePulse: 0.01
+  hoverScale: 1.05
+  hoverLift: 2
+  hoverSpeed: 8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

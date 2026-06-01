@@ -351,12 +351,8 @@ MonoBehaviour:
   greenLayer: {fileID: 390988301}
   blueLayer: {fileID: 987304046}
   speed: 1.5
-  redA: {r: 0.8941177, g: 0.36078432, b: 0.34901962, a: 1}
-  redB: {r: 0.9058824, g: 0.25490198, b: 0.23529413, a: 1}
-  greenA: {r: 0.7372549, g: 0.83137256, b: 0.4509804, a: 1}
-  greenB: {r: 0.8352941, g: 0.88235295, b: 0.50980395, a: 1}
-  blueA: {r: 0.33333334, g: 0.72156864, b: 0.854902, a: 1}
-  blueB: {r: 0.15686275, g: 0.24705884, b: 0.5254902, a: 1}
+  intensity: 0.25
+  baseAlpha: 0.9
 --- !u!1 &385785962
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,16 +614,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf031726c82da4492575b297b109a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RGBLayeredBackground
-  redLayer: {fileID: 2140986850}
-  greenLayer: {fileID: 390988301}
-  blueLayer: {fileID: 987304046}
+  redLayer: {fileID: 0}
+  greenLayer: {fileID: 0}
+  blueLayer: {fileID: 0}
   speed: 3
-  redA: {r: 1, g: 0.2, b: 0.2, a: 1}
-  redB: {r: 0.6, g: 0, b: 0, a: 1}
-  greenA: {r: 0.7372549, g: 0.8313726, b: 0.45098042, a: 1}
-  greenB: {r: 0.8352942, g: 0.882353, b: 0.50980395, a: 1}
-  blueA: {r: 0.2, g: 0.4, b: 1, a: 1}
-  blueB: {r: 0, g: 0, b: 0.6, a: 1}
+  intensity: 0.25
+  baseAlpha: 0.6
 --- !u!1 &486711955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1158,7 @@ GameObject:
   - component: {fileID: 919456238}
   - component: {fileID: 919456241}
   - component: {fileID: 919456242}
+  - component: {fileID: 919456243}
   m_Layer: 5
   m_Name: "but\xE3o-iniciar"
   m_TagString: Untagged
@@ -1295,7 +1288,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919456236}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 66b7fce2aa5d85248878cea06933228e, type: 2}
   m_CullingMode: 0
@@ -1322,6 +1315,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotaoMudarCena
   nomeCena: MenuPrincipal
+--- !u!114 &919456243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919456236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3bf72a0a1b707d4d8fcca3d5cb1085e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ComicHoverButton
+  startDelay: 0.3
+  entryDuration: 1
+  entryOffsetY: 60
+  entryStartScale: 0
+  hoverScale: 1.08
+  hoverTilt: 4
+  hoverSpeed: 10
+  idleFloat: 3
+  idleFloatSpeed: 1.5
+  idleRotation: 2
 --- !u!1 &987304044
 GameObject:
   m_ObjectHideFlags: 0
