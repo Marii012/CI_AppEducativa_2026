@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 36d2ede48f5403c4cb2ffcb1d199f632
+  - enabled: 1
+    path: Assets/Scenes/jogo_mirtilo_nivel1.unity
+    guid: e92165d638ca2b94b8b8cdc95327fdc2
+  - enabled: 1
+    path: Assets/Scenes/missao_completa_jogo_mirtilo.unity
+    guid: 8fdd916c9aa5ff942b378142503eb143
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

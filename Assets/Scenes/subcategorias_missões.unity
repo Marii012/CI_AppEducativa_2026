@@ -932,6 +932,8 @@ MonoBehaviour:
   rotateAmount: 1.5
   rotateSpeed: 1
   startDelay: 3
+  hoverScale: 1.08
+  hoverSpeed: 8
 --- !u!114 &619946855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1779,6 +1781,8 @@ MonoBehaviour:
   rotateAmount: 1.5
   rotateSpeed: 1
   startDelay: 3
+  hoverScale: 1.08
+  hoverSpeed: 8
 --- !u!114 &1798487444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1888,6 +1892,8 @@ MonoBehaviour:
   rotateAmount: 1.5
   rotateSpeed: 1
   startDelay: 3
+  hoverScale: 1.08
+  hoverSpeed: 8
 --- !u!114 &1847926279
 MonoBehaviour:
   m_ObjectHideFlags: 0
