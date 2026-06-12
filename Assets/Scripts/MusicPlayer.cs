@@ -3,19 +3,36 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class MusicPlayer : MonoBehaviour
 {
-    private static MusicPlayer instance;
+    public static MusicPlayer Instance;
+
+    private AudioSource audioSource;
+    private bool isMuted = false;
 
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject); // mantém entre cenas
-            GetComponent<AudioSource>().Play(); // garante que toca se não estiver tocando
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            audioSource = GetComponent<AudioSource>();
+            audioSource.loop = true;
+            audioSource.Play();
         }
         else
         {
-            Destroy(gameObject); // previne duplicados
+            Destroy(gameObject);
         }
+    }
+
+    public void ToggleMusic()
+    {
+        isMuted = !isMuted;
+        audioSource.mute = isMuted;
+    }
+
+    public bool IsMuted()
+    {
+        return isMuted;
     }
 }
