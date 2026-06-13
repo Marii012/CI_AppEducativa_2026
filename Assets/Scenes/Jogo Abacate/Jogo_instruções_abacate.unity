@@ -773,7 +773,7 @@ MonoBehaviour:
     clicares nos alimentos n\xE3o saud\xE1veis, perdes pontos.\n\n- O tempo \xE9
     limitado e, em cada n\xEDvel, o jogo fica mais r\xE1pido e dif\xEDcil."
   startDelay: 0.1
-  letterDelay: 0.02
+  letterDelay: 0.0015
 --- !u!224 &931632905 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6573390275927285521, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}
@@ -1860,7 +1860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63fbcd6d4807f249ba112cb66a5afdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotaoMudarCena
-  nomeCena: Jogo_Abacate
+  nomeCena: Jogo_Abacate_Nivel1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

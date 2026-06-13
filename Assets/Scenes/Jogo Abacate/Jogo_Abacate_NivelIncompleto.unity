@@ -1686,10 +1686,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3763402046847852848, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1035406470}
+      addedObject: {fileID: 1035406469}
     - targetCorrespondingSourceObject: {fileID: 3763402046847852848, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1035406469}
+      addedObject: {fileID: 1035406471}
   m_SourcePrefab: {fileID: 100100000, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}
 --- !u!224 &1035406465 stripped
 RectTransform:
@@ -1761,9 +1761,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1035406470}
-        m_TargetAssemblyTypeName: BotaoMudarCena, Assembly-CSharp
-        m_MethodName: MudarCena
+      - m_Target: {fileID: 1035406471}
+        m_TargetAssemblyTypeName: RetryButton, Assembly-CSharp
+        m_MethodName: RetryLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1773,7 +1773,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1035406470
+--- !u!114 &1035406471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1782,10 +1782,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1035406467}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d63fbcd6d4807f249ba112cb66a5afdd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7db3122773cc15e4193b46dec3297c51, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BotaoMudarCena
-  nomeCena: Jogo_Abacate
+  m_EditorClassIdentifier: Assembly-CSharp::RetryButton
 --- !u!1 &1044204686
 GameObject:
   m_ObjectHideFlags: 0

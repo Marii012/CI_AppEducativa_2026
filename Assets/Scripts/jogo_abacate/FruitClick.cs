@@ -14,6 +14,7 @@ public class FruitClick : MonoBehaviour
     public GameObject painelInfo;
 
     private Button button;
+    private bool alreadyClicked = false; // 🚫 bloqueia spam
 
     private static HashSet<GameObject> paineisAbertos = new HashSet<GameObject>();
 
@@ -32,30 +33,31 @@ public class FruitClick : MonoBehaviour
 
     void OnFruitClicked()
     {
-        // 🎯 SCORE SYSTEM
+        // 🚫 só permite 1 clique por fruta
+        if (alreadyClicked) return;
+        alreadyClicked = true;
+
+        // 🎯 SCORE SYSTEM (apenas 1 vez)
         if (foodType == FoodType.Healthy)
             GameManagerAbacate.AddPoint();
         else
             GameManagerAbacate.RemovePoint();
 
-        if (painelInfo == null)
-            return;
+        // 📌 painel só abre 1 vez por fruta
+        if (painelInfo != null && !paineisAbertos.Contains(painelInfo))
+        {
+            paineisAbertos.Add(painelInfo);
+            painelInfo.SetActive(true);
 
-        if (paineisAbertos.Contains(painelInfo))
-            return;
+            // ⏸ pausa spawn
+            FruitSpawner spawner = FindFirstObjectByType<FruitSpawner>();
+            if (spawner != null)
+                spawner.PauseSpawning();
 
-        paineisAbertos.Add(painelInfo);
-
-        painelInfo.SetActive(true);
-
-        // ⏸ pausa spawn
-        FruitSpawner spawner = FindFirstObjectByType<FruitSpawner>();
-        if (spawner != null)
-            spawner.PauseSpawning();
-
-        // ⏸ pausa timer (ISTO FALTAVA)
-        GameRunnerAbacate runner = FindFirstObjectByType<GameRunnerAbacate>();
-        if (runner != null)
-            runner.PauseTimer();
+            // ⏸ pausa timer
+            GameRunnerAbacate runner = FindFirstObjectByType<GameRunnerAbacate>();
+            if (runner != null)
+                runner.PauseTimer();
+        }
     }
 }

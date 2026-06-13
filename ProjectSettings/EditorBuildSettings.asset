@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: "Assets/Scenes/Jogo Abacate/Jogo_instru\xE7\xF5es_abacate.unity"
     guid: ca77ed383524b1345bd756f1cda3d0ee
   - enabled: 1
-    path: Assets/Scenes/Jogo Abacate/Jogo_Abacate.unity
+    path: Assets/Scenes/Jogo Abacate/Jogo_Abacate_Nivel1.unity
     guid: 78e4ac3c6eb0db1429ea916aed5fdd9a
   - enabled: 1
     path: "Assets/Scenes/subcategorias_miss\xF5es.unity"
@@ -32,6 +32,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogo Abacate/Jogo_Abacate_NivelIncompleto.unity
     guid: a95ca4651c92dab4c94fa81576c6d597
+  - enabled: 1
+    path: Assets/Scenes/Jogo Abacate/Jogo_Abacate_Nivel2.unity
+    guid: 65ae9807a98ad724a8270430fad3e33e
+  - enabled: 1
+    path: Assets/Scenes/Jogo Abacate/Jogo_Abacate_Nivel3.unity
+    guid: 1e01e3653cdb6db479d71f843194d357
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
