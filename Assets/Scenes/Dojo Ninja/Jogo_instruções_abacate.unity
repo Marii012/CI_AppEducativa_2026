@@ -482,7 +482,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.199}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269, y: 368}
+  m_AnchoredPosition: {x: 253, y: 363}
   m_SizeDelta: {x: 1112.726, y: 289.275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635518023
@@ -773,7 +773,7 @@ MonoBehaviour:
     clicares nos alimentos n\xE3o saud\xE1veis, perdes pontos.\n\n- O tempo \xE9
     limitado e, em cada n\xEDvel, o jogo fica mais r\xE1pido e dif\xEDcil."
   startDelay: 0.1
-  letterDelay: 0.0015
+  letterDelay: 0.01
 --- !u!224 &931632905 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6573390275927285521, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}
@@ -790,6 +790,7 @@ GameObject:
   - component: {fileID: 1426982661}
   - component: {fileID: 1426982663}
   - component: {fileID: 1426982662}
+  - component: {fileID: 1426982664}
   m_Layer: 5
   m_Name: "Bal\xE3o de fala"
   m_TagString: Untagged
@@ -804,17 +805,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426982660}
-  m_LocalRotation: {x: -0, y: -0, z: 0.0021525377, w: -0.99999774}
+  m_LocalRotation: {x: -0, y: -0, z: 0.01740964, w: -0.9998485}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 872420068}
   m_Father: {fileID: 1978892865}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.995}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.656, y: -29.021}
+  m_AnchoredPosition: {x: 307, y: -43}
   m_SizeDelta: {x: 769.17, y: 523.735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426982662
@@ -855,6 +856,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426982660}
   m_CullTransparentMesh: 1
+--- !u!114 &1426982664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426982660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8552bc45001b44e98091cc93c1fa2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PopEffect
+  popScale: 1.2
+  duration: 0.2
+  startDelay: 0.8
 --- !u!1 &1469234727
 GameObject:
   m_ObjectHideFlags: 0

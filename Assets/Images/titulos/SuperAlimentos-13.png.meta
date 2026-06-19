@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: a01cf58b00d670c44a86cfafc92e5ea0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5952447452488387596
+    second: SuperAlimentos-13_0
+  - first:
+      213: -1297024841596439563
+    second: SuperAlimentos-13_1
+  - first:
+      213: -1164630930460221547
+    second: SuperAlimentos-13_2
+  - first:
+      213: -1112151923092679370
+    second: SuperAlimentos-13_3
+  - first:
+      213: -6838442550566800906
+    second: SuperAlimentos-13_4
+  - first:
+      213: 5367950173423047858
+    second: SuperAlimentos-13_5
+  - first:
+      213: -8495232304960409207
+    second: SuperAlimentos-13_6
+  - first:
+      213: 8130914513939929526
+    second: SuperAlimentos-13_7
+  - first:
+      213: 634888930181498855
+    second: SuperAlimentos-13_8
+  - first:
+      213: -1520271619167244452
+    second: SuperAlimentos-13_9
+  - first:
+      213: 8745523527333748989
+    second: SuperAlimentos-13_10
+  - first:
+      213: -8086117751177660106
+    second: SuperAlimentos-13_11
+  - first:
+      213: -5255436424476717504
+    second: SuperAlimentos-13_12
+  - first:
+      213: 8892297221087580960
+    second: SuperAlimentos-13_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuperAlimentos-13_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 101
+        width: 88
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ccfbdab675b9250800000000000000
+      internalID: 5952447452488387596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 101
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f379cb47ca000ee0800000000000000
+      internalID: -1297024841596439563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 101
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f5c77d65666dfe0800000000000000
+      internalID: -1164630930460221547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 101
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6351bc7e7b7d090f0800000000000000
+      internalID: -1112151923092679370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 101
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1bc8c5bb8f811a0800000000000000
+      internalID: -6838442550566800906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 70
+        width: 111
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b490eafd3ace7a40800000000000000
+      internalID: 5367950173423047858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 101
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98179627a3fda1a80800000000000000
+      internalID: -8495232304960409207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 101
+        width: 51
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b91576cbafc6d070800000000000000
+      internalID: 8130914513939929526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_8
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 101
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7cb434e149fc800800000000000000
+      internalID: 634888930181498855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 101
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fad616409e6eae0800000000000000
+      internalID: -1520271619167244452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_10
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 101
+        width: 77
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0ac85ff475e5970800000000000000
+      internalID: 8745523527333748989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 101
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63933155fb658cf80800000000000000
+      internalID: -8086117751177660106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_12
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 101
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e8a6b9a60f017b0800000000000000
+      internalID: -5255436424476717504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuperAlimentos-13_13
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 101
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0235e1c8539c76b70800000000000000
+      internalID: 8892297221087580960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SuperAlimentos-13_0: 5952447452488387596
+      SuperAlimentos-13_1: -1297024841596439563
+      SuperAlimentos-13_10: 8745523527333748989
+      SuperAlimentos-13_11: -8086117751177660106
+      SuperAlimentos-13_12: -5255436424476717504
+      SuperAlimentos-13_13: 8892297221087580960
+      SuperAlimentos-13_2: -1164630930460221547
+      SuperAlimentos-13_3: -1112151923092679370
+      SuperAlimentos-13_4: -6838442550566800906
+      SuperAlimentos-13_5: 5367950173423047858
+      SuperAlimentos-13_6: -8495232304960409207
+      SuperAlimentos-13_7: 8130914513939929526
+      SuperAlimentos-13_8: 634888930181498855
+      SuperAlimentos-13_9: -1520271619167244452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

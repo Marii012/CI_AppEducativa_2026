@@ -1685,7 +1685,7 @@ MonoBehaviour:
   fullText: "A ma\xE7\xE3 d\xE1-te energia r\xE1pida, vitaminas e fibras que ajudam
     o teu corpo a ficar forte, saud\xE1vel e pronto para todas as aventuras ninja!"
   startDelay: 0.8
-  letterDelay: 0.0015
+  letterDelay: 0.1
 --- !u!1 &324894010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,7 +2927,7 @@ MonoBehaviour:
   fullText: "O br\xF3colo ajuda-te a ficar mais forte, d\xE1-te vitaminas importantes
     e mant\xE9m o teu corpo saud\xE1vel e cheio de energia."
   startDelay: 0.8
-  letterDelay: 0.0015
+  letterDelay: 0.1
 --- !u!114 &599025664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4363,7 +4363,7 @@ MonoBehaviour:
   fullText: "A banana d\xE1-te muita energia, ajuda os teus m\xFAsculos a ficarem
     fortes e mant\xE9m-te pronto para todas as aventuras ninja!"
   startDelay: 0.8
-  letterDelay: 0.0015
+  letterDelay: 0.1
 --- !u!114 &827171797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4950,7 +4950,7 @@ MonoBehaviour:
   fullText: "A cenoura d\xE1-te vis\xE3o de ninja, muita energia e vitaminas que
     ajudam o teu corpo a ficar forte e saud\xE1vel para todas as aventuras!"
   startDelay: 0.8
-  letterDelay: 0.0015
+  letterDelay: 0.1
 --- !u!1 &992891922
 GameObject:
   m_ObjectHideFlags: 0
@@ -8112,7 +8112,7 @@ MonoBehaviour:
   fullText: "A melancia ajuda-te a hidratar o corpo, d\xE1-te energia refrescante
     e mant\xE9m-te forte e saud\xE1vel para o teu dia a dia."
   startDelay: 0.8
-  letterDelay: 0.0015
+  letterDelay: 0.1
 --- !u!114 &2136044612
 MonoBehaviour:
   m_ObjectHideFlags: 0
