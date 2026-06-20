@@ -1237,7 +1237,7 @@ MonoBehaviour:
   fullText: "Clica nas partes da Roda dos Alimentos para descobrires mais sobre cada
     grupo e aprenderes a comer de forma saud\xE1vel!"
   startDelay: 0.1
-  letterDelay: 0.1
+  letterDelay: 0.05
 --- !u!114 &1475848345
 MonoBehaviour:
   m_ObjectHideFlags: 0

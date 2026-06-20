@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 2e9390eef5131af4f87e22e4b112162c
+guid: 7215c7c019b6ebd49954f4d02774ed1a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8510776572596404509
-    second: AlimentosRosa-04_0
+      213: -1854780274798041285
+    second: Frutas-15_0
   - first:
-      213: -9028565512630813833
-    second: AlimentosRosa-04_1
+      213: -6444659208087264677
+    second: Frutas-15_1
   - first:
-      213: -7180456815602842990
-    second: AlimentosRosa-04_2
-  - first:
-      213: 2240107705637725840
-    second: AlimentosRosa-04_3
-  - first:
-      213: 4708580390002279009
-    second: AlimentosRosa-04_4
-  - first:
-      213: -5688314428364660164
-    second: AlimentosRosa-04_5
+      213: 7804722086896079584
+    second: Frutas-15_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlimentosRosa-04_0
+      name: Frutas-15_0
       rect:
         serializedVersion: 2
-        x: 110
-        y: 468
-        width: 138
-        height: 149
+        x: 231
+        y: 151
+        width: 539
+        height: 525
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d114354633a5c1670800000000000000
-      internalID: 8510776572596404509
+      spriteID: b37e248ca2f7246e0800000000000000
+      internalID: -1854780274798041285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlimentosRosa-04_1
+      name: Frutas-15_1
       rect:
         serializedVersion: 2
-        x: 264
-        y: 516
-        width: 135
-        height: 154
+        x: 447
+        y: 639
+        width: 428
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77b3c4c608714b280800000000000000
-      internalID: -9028565512630813833
+      spriteID: b5222837898ff86a0800000000000000
+      internalID: -6444659208087264677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlimentosRosa-04_2
+      name: Frutas-15_2
       rect:
         serializedVersion: 2
-        x: 328
-        y: 316
-        width: 472
-        height: 342
+        x: 825
+        y: 74
+        width: 805
+        height: 728
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,74 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 292c5f4e194e95c90800000000000000
-      internalID: -7180456815602842990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosRosa-04_3
-      rect:
-        serializedVersion: 2
-        x: 875
-        y: 308
-        width: 438
-        height: 293
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 096e625f616761f10800000000000000
-      internalID: 2240107705637725840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosRosa-04_4
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 169
-        width: 246
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 162c476eaec385140800000000000000
-      internalID: 4708580390002279009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosRosa-04_5
-      rect:
-        serializedVersion: 2
-        x: 892
-        y: 78
-        width: 385
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3268965a2c0f01b0800000000000000
-      internalID: -5688314428364660164
+      spriteID: 0e216180361ff4c60800000000000000
+      internalID: 7804722086896079584
       vertices: []
       indices: 
       edges: []
@@ -273,12 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AlimentosRosa-04_0: 8510776572596404509
-      AlimentosRosa-04_1: -9028565512630813833
-      AlimentosRosa-04_2: -7180456815602842990
-      AlimentosRosa-04_3: 2240107705637725840
-      AlimentosRosa-04_4: 4708580390002279009
-      AlimentosRosa-04_5: -5688314428364660164
+      Frutas-15_0: -1854780274798041285
+      Frutas-15_1: -6444659208087264677
+      Frutas-15_2: 7804722086896079584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

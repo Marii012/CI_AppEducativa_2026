@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 19329b109f5a5ac4087a08d5c3347bdc
+guid: a992b3c439994d3419c21714b0d2be88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7193795952544043467
-    second: AlimentosLaranja-06_0
-  - first:
-      213: 6880822855235407197
-    second: AlimentosLaranja-06_1
-  - first:
-      213: 1656184154112443395
-    second: AlimentosLaranja-06_2
-  - first:
-      213: -8078301248705787895
-    second: AlimentosLaranja-06_3
+      213: 4005737918927103654
+    second: "\xC1gua-16_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AlimentosLaranja-06_0
+      name: "\xC1gua-16_0"
       rect:
         serializedVersion: 2
-        x: 322
-        y: 722
-        width: 427
-        height: 511
+        x: 194
+        y: 94
+        width: 274
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53e28fd02b08a2c90800000000000000
-      internalID: -7193795952544043467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosLaranja-06_1
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 157
-        width: 804
-        height: 728
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5d02b04ee79d7f50800000000000000
-      internalID: 6880822855235407197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosLaranja-06_2
-      rect:
-        serializedVersion: 2
-        x: 751
-        y: 872
-        width: 629
-        height: 636
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 304c08c96b2fbf610800000000000000
-      internalID: 1656184154112443395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AlimentosLaranja-06_3
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 234
-        width: 539
-        height: 524
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9080c42a0db14ef80800000000000000
-      internalID: -8078301248705787895
+      spriteID: 6a666f8f96d379730800000000000000
+      internalID: 4005737918927103654
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AlimentosLaranja-06_0: -7193795952544043467
-      AlimentosLaranja-06_1: 6880822855235407197
-      AlimentosLaranja-06_2: 1656184154112443395
-      AlimentosLaranja-06_3: -8078301248705787895
+      "\xC1gua-16_0": 4005737918927103654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
