@@ -773,7 +773,7 @@ MonoBehaviour:
     clicares nos alimentos n\xE3o saud\xE1veis, perdes pontos.\n\n- O tempo \xE9
     limitado e, em cada n\xEDvel, o jogo fica mais r\xE1pido e dif\xEDcil."
   startDelay: 0.1
-  letterDelay: 0.01
+  letterDelay: 0.05
 --- !u!224 &931632905 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6573390275927285521, guid: 8f353237ba5ce1d4f82793156856409c, type: 3}

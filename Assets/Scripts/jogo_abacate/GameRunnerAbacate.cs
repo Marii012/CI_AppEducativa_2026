@@ -10,6 +10,10 @@ public class GameRunnerAbacate : MonoBehaviour
     [Header("Scenes")]
     [SerializeField] private string winScene = "Jogo_Abacate_NivelCompleto";
     [SerializeField] private string loseScene = "Jogo_Abacate_NivelIncompleto";
+    [SerializeField] private string finalScene = "Jogo_Abacate_Fim";
+
+    [Header("Level")]
+    [SerializeField] private int levelIndex = 1;
 
     private float currentTime = 0f;
     private bool isPaused = false;
@@ -22,8 +26,7 @@ public class GameRunnerAbacate : MonoBehaviour
 
     void Update()
     {
-        if (isPaused)
-            return;
+        if (isPaused) return;
 
         currentTime += Time.deltaTime;
 
@@ -31,16 +34,7 @@ public class GameRunnerAbacate : MonoBehaviour
 
         if (remaining <= 0f)
         {
-            timerText.text = "00";
-
-            int score = GameManagerAbacate.GetScore();
-            int target = LevelManager.GetTargetScore();
-
-            if (score >= target)
-                SceneManager.LoadScene(winScene);
-            else
-                SceneManager.LoadScene(loseScene);
-
+            HandleEndGame();
             return;
         }
 
@@ -49,6 +43,28 @@ public class GameRunnerAbacate : MonoBehaviour
             remaining = Mathf.Max(0f, remaining);
             timerText.text = Mathf.CeilToInt(remaining).ToString("00");
         }
+    }
+
+    void HandleEndGame()
+    {
+        if (timerText != null)
+            timerText.text = "00";
+
+        int score = GameManagerAbacate.GetScore();
+        int target = LevelManager.GetTargetScore();
+
+        // PERDEU
+        if (score < target)
+        {
+            SceneManager.LoadScene(loseScene);
+            return;
+        }
+
+        // GANHOU
+        if (levelIndex == 3)
+            SceneManager.LoadScene(finalScene);
+        else
+            SceneManager.LoadScene(winScene);
     }
 
     public void PauseTimer()
