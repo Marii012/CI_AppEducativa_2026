@@ -48,7 +48,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Dojo Ninja/Jogo_Abacate_Nivel3.unity
     guid: 1e01e3653cdb6db479d71f843194d357
   - enabled: 1
-<<<<<<< Updated upstream
     path: Assets/Scenes/Super Alimentos/Abacate_Educativo_Fruta.unity
     guid: 7e22984dc6a0f4249b020919fd1f6afe
   - enabled: 1
@@ -75,40 +74,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dojo Ninja/Jogo_Abacate_Fim.unity
     guid: c5dbfeb054ee34e49ad37aea9711e9dc
-=======
-    path: Assets/Scenes/Jogo Mirtilo/jogo_mirtilo_nivel2.unity
-    guid: 5899580437e361546b707e7ece7106d1
-  - enabled: 1
-    path: Assets/Scenes/Jogo Mirtilo/jogo_mirtilo_nivel3.unity
-    guid: b9efaff463c8c4245a8e1e121b72e186
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/mirtilo_educativo2.unity
-    guid: a782e47f84e5ceb47869f6ad14dcd1da
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco1_educativo.unity
-    guid: 27d722e9140eb4848883fd189b59aa82
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco2_educativo.unity
-    guid: d5dd7396c371ceb49addc06dc1cb48b0
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco3_educativo.unity
-    guid: bbd43e101a0fe0f46a37b1edc72c9c2f
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco4_educativo.unity
-    guid: 1b4919171de70e9429195f810b1c53d6
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco5_educativo.unity
-    guid: 95241d79292198249a85badeab71a9fb
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/bloco6_educativo.unity
-    guid: 84c524556011e3347bfe8e72f3f8b268
-  - enabled: 1
-    path: Assets/Scenes/mirtilo_educativo/mirtilo_educativo1.unity
-    guid: 89803d5b79a992d4581975d76cea34f3
   - enabled: 1
     path: Assets/Scenes/Jogo Mirtilo/jogo_mirtilo.unity
     guid: 2c89bd2ea02f7cb41825b82bf6e0924e
->>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
