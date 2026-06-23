@@ -54,7 +54,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Super Alimentos/Abacate_Educativo_Gorduras.unity
     guid: 5c9f11e0abc19f740b5f86aee2a8b2dd
   - enabled: 1
-    path: "Assets/Scenes/Abacate_Educativo_Latic\xEDnios.unity"
+    path: "Assets/Scenes/Super Alimentos/Abacate_Educativo_Latic\xEDnios.unity"
     guid: f9cac8f2e28983445be90c2540cb9204
   - enabled: 1
     path: Assets/Scenes/Super Alimentos/Abacate_Educativo_Legumes.unity
