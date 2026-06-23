@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d63fbcd6d4807f249ba112cb66a5afdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BotaoMudarCena
-  nomeCena: Jogo_Abacate_Nivel1
+  nomeCena: jogo_mirtilo_nivel1
 --- !u!1 &144110524
 GameObject:
   m_ObjectHideFlags: 0
