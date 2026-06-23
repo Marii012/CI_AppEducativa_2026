@@ -368,6 +368,7 @@ MonoBehaviour:
   - {fileID: 4337086038352537680, guid: 02f99a5a48bb9f1449fa36efb3a58a7e, type: 3}
   - {fileID: 946251579190541518, guid: f76459b8737a40741bf3566a0b1e3171, type: 3}
   - {fileID: 5013283452240835332, guid: ed1f151267c52e34cb8cfc83e4336545, type: 3}
+  infoPanelManager: {fileID: 0}
   victoryMusic: {fileID: 0}
   timerScript: {fileID: 2074126466}
   finalSceneName: missao_completa_jogo_mirtilo
