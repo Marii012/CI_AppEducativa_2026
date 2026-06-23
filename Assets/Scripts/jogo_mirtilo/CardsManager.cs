@@ -133,8 +133,8 @@ public class CardsManager : MonoBehaviour
         if (timerScript != null)
         {
             int tempoFinal = timerScript.GetTimerAndStop();
-GameManager.SetSeconds(tempoFinal);
-Debug.Log("TEMPO GUARDADO: " + tempoFinal);
+            GameManager.SetSeconds(tempoFinal);
+            Debug.Log("TEMPO GUARDADO: " + tempoFinal);
         }
 
         if (victoryMusic != null && victoryMusic.clip != null)
